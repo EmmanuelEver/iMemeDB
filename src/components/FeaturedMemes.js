@@ -50,7 +50,7 @@ const FeaturedMemesSection = styled.section`
     padding: 6rem 10%;
     max-width: 1440px;
     min-height: 100vh;
-    background: lightblue;
+    background: #f1f2f6;
 `
 const SectionHeader = styled.h2`
     font-size: clamp(1.5rem, 5vw, 3.5rem);

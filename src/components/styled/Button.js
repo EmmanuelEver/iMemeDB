@@ -1,8 +1,7 @@
 import styled from "styled-components"
-import { Link } from "gatsby"
 
 
-const Button = styled(Link)`
+const Button = styled.button`
     padding: ${ ({big}) => ( big? "16px 40px" : "10px 32px" )};
     font-size: ${ ({big}) => ( big? "24px" : "16px" )};
     color: white;
